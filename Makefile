@@ -49,12 +49,14 @@
 # USB vendor ID (VID)
 # official Arduino LLC VID = 0x2341
 # SparkFun VID = 0x1B4F
-VID = 0x1B4F
+# http://pid.codes VID = 0x1209
+VID = 0x1209
 
 # USB product ID (PID)
 # official Leonardo PID = 0x0036
 # SparkFun LilyPadUSB PID = 0x9207
-PID = 0x9207
+# DI-Lambda AVR PID (request pending)
+PID = 0xd11d
 
 # MCU name
 MCU = atmega32u4
